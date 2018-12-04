@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ArchitectureDecisionRecords": {
+      "commandName": "Project",
+      "commandLineArgs": "new --title \"Test decision\"",
+      "workingDirectory": "D:\\projects\\adr-tools\\src\\ArchitectureDecisionRecords"
+    }
+  }
+}
