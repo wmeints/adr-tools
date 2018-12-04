@@ -6,8 +6,8 @@ The idea is based on work published by Micheal Nygard on his blog: http://thinkr
 Make sure that you have .NET Core 2.1 SDK installed on your machine.
 Run the following commands to compile and install the tool:
 
-* dotnet pack -C Release
-* dotnet tool install --global --add-source .\nupkg\ ArchitectureDecisionRecords
+* `dotnet pack -C Release`
+* `dotnet tool install --global --add-source .\nupkg\ ArchitectureDecisionRecords`
 
 ## Running the tool
 You can start the tool with the command `adr`. It supports the following commands:
