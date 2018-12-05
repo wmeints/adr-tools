@@ -50,7 +50,7 @@ namespace ArchitectureDecisionRecords
                 writer.WriteLine();
                 writer.WriteLine("## Decision");
                 writer.WriteLine();
-                writer.WriteLine("TODO: Describe the decision.");
+                writer.WriteLine("The change that we're proposing or have agreed to implement.");
                 writer.WriteLine();
                 writer.WriteLine("## Consequences");
                 writer.WriteLine();
@@ -58,6 +58,7 @@ namespace ArchitectureDecisionRecords
             }
 
             Console.WriteLine($"Created new record with title '{options.Title}'");
+
             return 0;
         }
 

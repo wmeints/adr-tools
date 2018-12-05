@@ -6,10 +6,27 @@
     <PackAsTool>True</PackAsTool>
     <ToolCommandName>adr</ToolCommandName>
     <PackageOutputPath>./nupkg</PackageOutputPath>
+    <Authors>Willem Meints</Authors>
+    <Product>ADR-Tools</Product>
+    <Description>Record and manage architecture decision records for your project.</Description>
+    <Copyright>Copyright Willem Meints 2018.</Copyright>
+    <PackageLicenseUrl>https://github.com/wmeints/adr-tools/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/wmeints/adr-tools/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/wmeints/adr-tools/</RepositoryUrl>
+    <PackageTags>documentation, architecture, tools</PackageTags>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyInformationalVersion>1.0.1</AssemblyInformationalVersion>
+    <PackageVersion>1.0.1</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="CommandLineParser" Version="2.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>System</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
