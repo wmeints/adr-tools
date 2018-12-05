@@ -6,8 +6,7 @@ The idea is based on work published by Micheal Nygard on his blog: http://thinkr
 Make sure that you have .NET Core 2.1 SDK installed on your machine.
 Run the following commands to compile and install the tool:
 
-* `dotnet pack -C Release`
-* `dotnet tool install --global --add-source .\nupkg\ ArchitectureDecisionRecords`
+* `dotnet tool install --global ArchitectureDecisionRecords`
 
 ## Running the tool
 You can start the tool with the command `adr`. It supports the following commands:
@@ -24,6 +23,13 @@ You can change the decisions folder by providing the `--path` option to this com
 This creates a new decision record in the ADR repository. 
 Please use quotes around the title if it contains more than one word.
 
-## Requests, commands or bugs
+## Development
+You can build this tool locally as well. Execute the following steps to build 
+and test the tool locally:
+
+ * `dotnet pack -C release -o .\nupkg`
+ * `dotnet tool install --global --add-source .\nupkg\ ArchitectureDecisionRecords`
+
+## Requests, comments or bugs
 Please file issues if you run into any problems. 
 Feel free to send me a pull request for any new features you want included in the tool.
