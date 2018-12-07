@@ -7,9 +7,9 @@ namespace ArchitectureDecisionRecords
 {
     public class ApplicationOptions
     {
-        public ApplicationOptions(string decisiionRecordFolder)
+        public ApplicationOptions(string decisionRecordFolder)
         {
-            DecisionRecordFolder = decisiionRecordFolder;
+            DecisionRecordFolder = decisionRecordFolder;
         }
 
         public string DecisionRecordFolder { get; }
